@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ecosolution-tech-task/static/css/main.8ff56e85.css",
+    "main.js": "/ecosolution-tech-task/static/js/main.e754881b.js",
+    "static/media/Zhutomyr.png": "/ecosolution-tech-task/static/media/Zhutomyr.11413009311a7884d80a.png",
+    "static/media/Rivne.png": "/ecosolution-tech-task/static/media/Rivne.638921b793ade92fddcf.png",
+    "static/media/Zaporizhia.png": "/ecosolution-tech-task/static/media/Zaporizhia.96d23b48dce2ac09a5ca.png",
+    "static/media/Lviv.png": "/ecosolution-tech-task/static/media/Lviv.6f08eec56c0b1994aba5.png",
+    "static/media/Kherson.png": "/ecosolution-tech-task/static/media/Kherson.71ff4add7645f93f1643.png",
+    "static/media/sprite.svg": "/ecosolution-tech-task/static/media/sprite.ccff25c5792e5e0700d3918a1e84dc54.svg",
+    "static/media/cpu-charge.svg": "/ecosolution-tech-task/static/media/cpu-charge.a92d00b320b5de4e1013d2682198a48a.svg",
+    "static/media/ranking.svg": "/ecosolution-tech-task/static/media/ranking.b6b427cb0f44bae321463ad5bdd2e19f.svg",
+    "static/media/global-edit.svg": "/ecosolution-tech-task/static/media/global-edit.d8865ee7bbdfc097110a1ffcceb66f0d.svg",
+    "static/media/call.svg": "/ecosolution-tech-task/static/media/call.39f3d3e3e6f16cff7d0f9af2f1b0a852.svg",
+    "static/media/maximize-circle.svg": "/ecosolution-tech-task/static/media/maximize-circle.afe4fa31c418e5ef2d642c0efb5bcb3e.svg",
+    "static/media/map.svg": "/ecosolution-tech-task/static/media/map.c3d960ba5958289a1188e31674a2a827.svg",
+    "index.html": "/ecosolution-tech-task/index.html",
+    "static/media/instagram.svg": "/ecosolution-tech-task/static/media/instagram.6e44fb60b2bc0188a75401317260801f.svg",
+    "static/media/facebook.svg": "/ecosolution-tech-task/static/media/facebook.7d3482cf4dc99aae8274300de788adcd.svg",
+    "static/media/sms.svg": "/ecosolution-tech-task/static/media/sms.f6ddabde98bcc660cede888e2b532717.svg",
+    "static/media/arrow-right.svg": "/ecosolution-tech-task/static/media/arrow-right.4a037184c631d29b88549f19dff12a4c.svg",
+    "static/media/add.svg": "/ecosolution-tech-task/static/media/add.18018ecb7520511c1ef7ed7229d22d4c.svg",
+    "static/media/minus.svg": "/ecosolution-tech-task/static/media/minus.06823d08b7149db9f2adc6371ef81ae6.svg",
+    "static/media/HR-mob.svg": "/ecosolution-tech-task/static/media/HR-mob.28de402ee268b6f1bc022000fdf5f825.svg",
+    "static/media/ellipse.svg": "/ecosolution-tech-task/static/media/ellipse.739ecb2649bed4c6cb1540e8d3fbad1c.svg",
+    "main.8ff56e85.css.map": "/ecosolution-tech-task/static/css/main.8ff56e85.css.map",
+    "main.e754881b.js.map": "/ecosolution-tech-task/static/js/main.e754881b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ff56e85.css",
+    "static/js/main.e754881b.js"
+  ]
+}
