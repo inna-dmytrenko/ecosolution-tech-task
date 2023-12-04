@@ -1,10 +1,17 @@
-import { H1, MainDescription, Address, Map, Mail } from './Main.styled'
+import {
+  H1,
+  MainDescription,
+  Address,
+  Map,
+  Mail,
+  MainSection,
+} from './Main.styled'
 import { Button } from '@mui/material'
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight'
 
 const Main = () => {
   return (
-    <>
+    <MainSection>
       <H1>RENEWABLE ENERGY FOR ANY TASK</H1>
       <MainDescription>
         Development and implementation of renewable non-polluting energy
@@ -20,7 +27,7 @@ const Main = () => {
         </Map>
         <Mail href="mailto:office@ecosolution.com">office@ecosolution.com</Mail>
       </Address>
-    </>
+    </MainSection>
   )
 }
 export default Main
