@@ -9,11 +9,13 @@ import Case from '../Case/Case'
 import FAQ from '../FAQ/FAQ'
 import Contact from '../Contact/Contact'
 import Form from '../Form/FormContact'
+import Modal from '../Modal/Modal'
 
 function App() {
   return (
     <Container>
       <Header />
+      <Modal />
       <Main />
       <About />
       <Services />
