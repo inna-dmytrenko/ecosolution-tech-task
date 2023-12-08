@@ -12,51 +12,65 @@ import {
   SocialLink,
   Facebook,
   Instagram,
+  ModalWrapper,
 } from './Modal.styled'
 
 const Modal = () => {
   return (
     <>
-      <NavModal>
+      <ModalWrapper>
         <Button>
           {' '}
           <ButtonSvg /> close
         </Button>
-        <HRMenu></HRMenu>
-        <List>
-          <Item>
-            <ModalLink>
-              Main
-              <ArrowRight />
-            </ModalLink>
-            <ModalLink>
-              About
-              <ArrowRight />
-            </ModalLink>
-            <ModalLink>
-              Cases
-              <ArrowRight />
-            </ModalLink>
-            FAQ
-            <ModalLink>
-              Contact Us
-              <ArrowRight />
-            </ModalLink>
-          </Item>
-        </List>
-        <SocialList>
-          <SocialItem>
-            <SocialLink>
-              <Facebook></Facebook>
-            </SocialLink>
-          </SocialItem>
-          <SocialItem>
-            <SocialLink>
-              <Instagram></Instagram>
-            </SocialLink>
-          </SocialItem>
-        </SocialList>
-      </NavModal>
+        <NavModal>
+          <HRMenu></HRMenu>
+          <List>
+            <Item>
+              <ModalLink>
+                Main
+                <ArrowRight />
+              </ModalLink>
+            </Item>
+            <Item>
+              <ModalLink>
+                About
+                <ArrowRight />
+              </ModalLink>
+            </Item>
+            <Item>
+              <ModalLink>
+                Cases
+                <ArrowRight />
+              </ModalLink>
+            </Item>
+            <Item>
+              <ModalLink>
+                FAQ
+                <ArrowRight />
+              </ModalLink>
+            </Item>
+            <Item>
+              <ModalLink>
+                Contact Us
+                <ArrowRight />
+              </ModalLink>
+            </Item>
+          </List>
+          <SocialList>
+            <SocialItem>
+              <SocialLink>
+                <Facebook></Facebook>
+              </SocialLink>
+            </SocialItem>
+            <SocialItem>
+              <SocialLink>
+                <Instagram></Instagram>
+              </SocialLink>
+            </SocialItem>
+          </SocialList>
+        </NavModal>
+      </ModalWrapper>
     </>
   )
 }
