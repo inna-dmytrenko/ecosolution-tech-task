@@ -13,6 +13,7 @@ import {
   Facebook,
   Instagram,
   ModalWrapper,
+  MenuWrapper,
 } from './Modal.styled'
 
 const Modal = () => {
@@ -23,40 +24,42 @@ const Modal = () => {
           {' '}
           <ButtonSvg /> close
         </Button>
-        <NavModal>
-          <HRMenu></HRMenu>
-          <List>
-            <Item>
-              <ModalLink>
-                Main
-                <ArrowRight />
-              </ModalLink>
-            </Item>
-            <Item>
-              <ModalLink>
-                About
-                <ArrowRight />
-              </ModalLink>
-            </Item>
-            <Item>
-              <ModalLink>
-                Cases
-                <ArrowRight />
-              </ModalLink>
-            </Item>
-            <Item>
-              <ModalLink>
-                FAQ
-                <ArrowRight />
-              </ModalLink>
-            </Item>
-            <Item>
-              <ModalLink>
-                Contact Us
-                <ArrowRight />
-              </ModalLink>
-            </Item>
-          </List>
+        <HRMenu></HRMenu>
+        <MenuWrapper>
+          <NavModal>
+            <List>
+              <Item>
+                <ModalLink>
+                  Main
+                  <ArrowRight />
+                </ModalLink>
+              </Item>
+              <Item>
+                <ModalLink>
+                  About
+                  <ArrowRight />
+                </ModalLink>
+              </Item>
+              <Item>
+                <ModalLink>
+                  Cases
+                  <ArrowRight />
+                </ModalLink>
+              </Item>
+              <Item>
+                <ModalLink>
+                  FAQ
+                  <ArrowRight />
+                </ModalLink>
+              </Item>
+              <Item>
+                <ModalLink>
+                  Contact Us
+                  <ArrowRight />
+                </ModalLink>
+              </Item>
+            </List>
+          </NavModal>
           <SocialList>
             <SocialItem>
               <SocialLink>
@@ -69,7 +72,7 @@ const Modal = () => {
               </SocialLink>
             </SocialItem>
           </SocialList>
-        </NavModal>
+        </MenuWrapper>
       </ModalWrapper>
     </>
   )

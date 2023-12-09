@@ -2,13 +2,13 @@
 
 import { Container } from './App.styled'
 import Header from '../Header/Header'
-import Main from '../Main/Main'
-import About from '../About/About'
-import Services from '../Services/Services'
-import Case from '../Case/Case'
-import FAQ from '../FAQ/FAQ'
-import Contact from '../Contact/Contact'
-import Form from '../Form/FormContact'
+// import Main from '../Main/Main'
+// import About from '../About/About'
+// import Services from '../Services/Services'
+// import Case from '../Case/Case'
+// import FAQ from '../FAQ/FAQ'
+// import Contact from '../Contact/Contact'
+// import Form from '../Form/FormContact'
 import Modal from '../Modal/Modal'
 
 function App() {
@@ -16,13 +16,13 @@ function App() {
     <Container>
       <Header />
       <Modal />
-      <Main />
+      {/* <Main />
       <About />
       <Services />
       <Case />
       <FAQ />
       <Contact />
-      <Form />
+      <Form /> */}
     </Container>
   )
 }

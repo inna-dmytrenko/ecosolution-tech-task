@@ -7,14 +7,13 @@ import {
   ItemDesc,
   ItemData,
   Details,
-  Icon,
+  ArrowRight,
 } from './Case.styled.js'
 import LvivImg from '../../assets/images/сase/Lviv.png'
 import ZhutomyrImg from '../../assets/images/сase/Zhutomyr.png'
 import RivneImg from '../../assets/images/сase/Rivne.png'
 import KhersonImg from '../../assets/images/сase/Kherson.png'
 import ZaporizhiaImg from '../../assets/images/сase/Zaporizhia.png'
-import ArrowRight from '../../assets/icons/arrow-right.svg'
 
 const Case = () => {
   return (
@@ -27,7 +26,7 @@ const Case = () => {
             Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”
           </Map>
           <Details>
-            <Icon src={ArrowRight} />
+            <ArrowRight />
           </Details>
           <ItemDesc>Wind Power for auto field irrigation</ItemDesc>
           <ItemData>July 2023</ItemData>
@@ -36,7 +35,7 @@ const Case = () => {
           <Img src={ZhutomyrImg} />
           <Map>Zhytomyr city Private Enterprise “Bosch”</Map>
           <Details>
-            <Icon src={ArrowRight} />
+            <ArrowRight />
           </Details>
           <ItemDesc>Solar Panels for industrial use</ItemDesc>
           <ItemData>November 2023</ItemData>
@@ -45,7 +44,7 @@ const Case = () => {
           <Img src={RivneImg} />
           <Map>Rivne city Private Enterprise “Biotech”</Map>
           <Details>
-            <Icon src={ArrowRight} />
+            <ArrowRight />
           </Details>
           <ItemDesc>Thermal modules</ItemDesc>
           <ItemData>October 2023</ItemData>
@@ -54,7 +53,7 @@ const Case = () => {
           <Img src={KhersonImg} />
           <Map>Kherson city Private Enterprise “HealthyFarm”</Map>
           <Details>
-            <Icon src={ArrowRight} />
+            <ArrowRight />
           </Details>
           <ItemDesc>Wind power</ItemDesc>
           <ItemData>September 2021</ItemData>
@@ -63,7 +62,7 @@ const Case = () => {
           <Img src={ZaporizhiaImg} />
           <Map>Zaporizhia city Private Enterprise “Biotech”</Map>
           <Details>
-            <Icon src={ArrowRight} />
+            <ArrowRight />
           </Details>
           <ItemDesc>Mini nuclear stations</ItemDesc>
           <ItemData>May 2021</ItemData>
