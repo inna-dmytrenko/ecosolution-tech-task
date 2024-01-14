@@ -6,7 +6,7 @@ import { ReactComponent as FB } from '../../assets/icons/facebook.svg'
 import { ReactComponent as Inst } from '../../assets/icons/instagram.svg'
 
 export const ModalWrapper = styled.div`
-  width: 100%;
+  width: 320px;
   height: calc(100vh - 20px);
   display: flex;
   flex-direction: column;
@@ -73,17 +73,28 @@ export const List = styled.ul`
 `
 export const Item = styled.li``
 export const ModalLink = styled.a`
-  color: #fff;
+  /* font-family: Fira Sans; */
+  /* font-size: 24px;
+  font-style: normal; */
+  /* font-weight: 300; */
+  color: #ffffff;
   display: flex;
   column-gap: 8px;
 
   align-items: baseline;
+  stroke: #ffffff;
+  &:hover {
+    stroke: #97d28b;
+    color: #97d28b;
+  }
 `
 export const SocialList = styled.ul`
   display: flex;
   column-gap: 8px;
 `
 export const SocialItem = styled.li``
-export const SocialLink = styled.a``
+export const SocialLink = styled.a`
+  display: flex;
+`
 export const Facebook = styled(FB)``
 export const Instagram = styled(Inst)``
